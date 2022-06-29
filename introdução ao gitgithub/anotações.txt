@@ -29,7 +29,7 @@ git checkout -b nome-branch master
 touch .gitignore - vai criar uma arquivo txt, nesse txt só é adicionar os nomes dos arquivos que irão ser ignorados 
 
 ---------------------------------------------------------------------------------------------------------
-Git DIO  chave SSH - ssh-keygen -t ed25519 -C gutto.gsm@gmail.com
+Git DIO  chave SSH - ssh-keygen -t ed25519 -C gutto.gsm...
 		   - eval $(ssh-agent -s)
 
 
