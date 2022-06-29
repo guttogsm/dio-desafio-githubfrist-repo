@@ -1,0 +1,38 @@
+1 - crie uma pasta e dentro dela clique como o botão direito escolha a opçao 'Git Bash Here' vai abrir o CMD Git
+2 - digitar o 'git init' e apertar Enter, vai crir um arquivo oculto .git
+3 -'git status' informa as atualizações da pasta. Untracket File = arquivos que não foram adicinados 
+4 - git add "nome do arquivo.py" sempre entre aspas duplas, para VÁRIOS arquivos 'git add .'
+5 - git commit -m "nome do arquivo" sempre que criar uma atualização do codigo usar o git commit na primeira vez  
+vai pedir os comandos 'git config --global usar.email "you@exemple.com"
+                      'git config --global usar.name "seu nome"
+6 - git push - envia o arquivo para o GIT
+7 - git remote add origin https://github.com/guttogsm/Projetos_privados - seria o link do repositório onde quer enviar 
+8 - git push --set-upstream origin master  - o local onde será enviado- se não estiver logado vai apresentar  tela de login
+9 - git add . - para adicinar uma atualização git satus para ver se foi atualizado a git commit -m "descrição da atulização" por ultimo git push para enviar a atualização
+10 - git reflog - mostra atualizaçóes
+11 - git reset --hard 4a1c3f2 - navega entre as versões do códido 4a1c3f2 = id do código que quer voltar- CUIDADO AO USAR ESSE COMANDO 
+
+BRANCH 	- é o repositório onde ficam os projetos, podem haver várias brenches exemplo: branch master e outras
+
+12 - git branch nome_da_branch - sem aspas - cria branch
+13 - git branch - mostra as branchs
+14 - git checkout nome_da_branch - mudar da branch
+15 - git push --set-upstream origin staging sempre pede ao criar nova branch
+
+MERGE 
+
+antes fazer um git chackout e git pull para verificar a atualização 
+git merge staging - para unir os codigos, exemplo: um codigo modificado na staging e eu quero unir coma principal MASTER, entro na MASTER e digito - git merge staging
+
+git checkout -b nome-branch master
+
+touch .gitignore - vai criar uma arquivo txt, nesse txt só é adicionar os nomes dos arquivos que irão ser ignorados 
+
+---------------------------------------------------------------------------------------------------------
+Git DIO  chave SSH - ssh-keygen -t ed25519 -C gutto.gsm@gmail.com
+		   - eval $(ssh-agent -s)
+senha 0007
+
+cd - cd.. - cd /  
+cls
+objetos do Git BLOBS - TREES - COMMITS
