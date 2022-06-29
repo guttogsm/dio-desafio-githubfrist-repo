@@ -31,7 +31,7 @@ touch .gitignore - vai criar uma arquivo txt, nesse txt só é adicionar os nome
 ---------------------------------------------------------------------------------------------------------
 Git DIO  chave SSH - ssh-keygen -t ed25519 -C gutto.gsm@gmail.com
 		   - eval $(ssh-agent -s)
-senha 0007
+
 
 cd - cd.. - cd /  
 cls
